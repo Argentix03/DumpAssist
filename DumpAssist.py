@@ -1,4 +1,4 @@
-# Author: Hoshea Yarden
+# Author: Argentix
 # Description: A tool originally for practicing CEH Dumps but ended up as a general questions dump tool.
 # It works with any multiple answers questions dump (text) file that has a question title, followed by the question and ends with the correct answer.
 #
