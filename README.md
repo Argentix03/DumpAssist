@@ -26,3 +26,4 @@ Answer: exit
 
 ### Demo:
 ![alt text](https://github.com/Argentix03/DumpAssist/raw/main/usage example.png?raw=true)
+![plot](usage example./plot.png)
