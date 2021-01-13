@@ -9,20 +9,23 @@ If your file is a pdf you will need to convert it to a text file to work with (c
 Type "progress" or "exit" as your answer at any time to see progress or exit.
 
 ### Usage Example:
+```
 Enter file name (dump file): 312-50v10V12.0.txt
 Enter question delimiter: . - (Exam Topic
-
+```
 ### Usage Example:
+```
 Enter file name (dump file): 312-50v10V.txt
 Enter question delimiter: NEW QUESTION
-
+```
 ### Usage Example:
+```
 Enter file name (dump file): 312-50v10V12.0.txt
 Session file found. Please select an option: 1
 Random or in order? 1
 Answer: a
 Answer: progress
 Answer: exit
-
+```
 ### Demo:
 ![example image](https://github.com/Argentix03/DumpAssist/raw/main/usage-example.png?raw=true)
