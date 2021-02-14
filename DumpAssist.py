@@ -20,6 +20,7 @@ Usage Ex: Enter file name (dump file): 312-50v10V12.0.txt
           Answer: exit
 """
 import random
+import time
 
 
 BANNER = """Dump assist v1.0
@@ -177,12 +178,13 @@ def ask_a_question(session_file, questions_sum, questions_left, question_index, 
     question, answer = tuple(*questions_left[question_index].items())
     print(f"Current question: {question_index}\n{question}")
     users_answer = input("Answer: ")
-    if users_answer.lower() == "exit":
-        print(f"progress saved in file {session_file}")
-        exit()
-    elif users_answer.lower() == "progress":
+    if users_answer.lower() == "progress":
         print_progress(questions_sum, questions_left, starting_progress, progress)
         users_answer = input("Answer: ")
+    if users_answer.lower() == "exit":
+        print(f"progress saved in file {session_file}")
+        time.sleep(1)
+        exit()
     if users_answer.lower() == answer.lower():
         correct_answer(session_file, questions_left, question_index)
     else:
